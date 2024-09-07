@@ -24,3 +24,9 @@ foreach ($requiredFiles as $file) {
         die("A required configuration file is missing. Please contact support.");
     }
 }
+
+includeHeader();
+includeSidebar();
+includeFooter();
+
+exit();
