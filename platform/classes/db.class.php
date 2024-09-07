@@ -1,7 +1,7 @@
 <?php
 
 // Database class
-class Database
+class db
 {
     // PDO object
     private static $pdo = null;

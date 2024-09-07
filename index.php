@@ -21,4 +21,4 @@ foreach ($requiredFiles as $file) {
    }
 }
 
-require $_SERVER['DOCUMENT_ROOT'] . './assets/view/main.php';
+require $_SERVER['DOCUMENT_ROOT'] . '/assets/view/main.php';

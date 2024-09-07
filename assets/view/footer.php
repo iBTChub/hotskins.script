@@ -18,7 +18,7 @@
 <script src="/assets/js/socket.io.js"></script>
 <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
 
-<?php require ROOT . './assets/view/modals.php'; ?>
+<?php require ROOT . '/assets/view/modals.php'; ?>
 
 </body>
 </html>
