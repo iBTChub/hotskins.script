@@ -9,7 +9,7 @@
 
 function includeHeader(): void
 {
-  $filePath = PLATFORM . '/requires/template/header.php';
+  $filePath = REQUIRES . '/template/header.php';
 
   try {
     if (file_exists($filePath)) {
@@ -32,7 +32,7 @@ function includeHeader(): void
 
 function includeFooter(): void
 {
-  $filePath = PLATFORM . '/requires/template/footer.php';
+  $filePath = REQUIRES . '/template/footer.php';
 
   try {
     if (file_exists($filePath)) {
@@ -61,7 +61,7 @@ function includeSidebar(bool $enabled = true): void
     return;
   }
 
-  $filePath = PLATFORM . '/requires/template/sidebar.php';
+  $filePath = REQUIRES . '/template/sidebar.php';
 
   try {
     if (file_exists($filePath)) {
