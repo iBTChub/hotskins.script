@@ -22,7 +22,5 @@ foreach ($requiredFiles as $file) {
 }
 
 includeHeader();
-includeSidebar();
-includeFooter();
 
 exit();
