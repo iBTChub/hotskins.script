@@ -1,5 +1,5 @@
 <?php
-require("bd.php");
+
 $fkassa = '86869';//id мерчанта фри-кассы 
 
 $sitesalt = "LV90093kg09kVB0-BL4-0O(@_!b<$%9G53v(#m*(F(K4328";
