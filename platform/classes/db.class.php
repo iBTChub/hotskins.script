@@ -14,7 +14,7 @@ class Database
     {
         if (self::$pdo === null) {
             try {
-                self::$pdo = new PDO('mysql:host=' . DB_HOST . ';dbname=' . DB_NAME . ';charset=utf8', DB_USER, DB_PASS, [PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES 'utf8mb4'"]);
+                self::$pdo = new PDO('mysql:host=' . config('DB_HOST') . ';dbname=' . config('DB_NAME') . ';charset=utf8', config('DB_USER'), config('DB_PASS'), [PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES 'utf8mb4'"]);
                 self::$pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_WARNING);
             } catch (PDOException $e) {
                 if ($showError) {
