@@ -1,3 +1,3 @@
 <?php
 
-print_r('DEBUG:FOOTER' . '<hr>');
+require_once ROOT . '/assets/view/footer.php';

@@ -1,3 +1,3 @@
 <?php
 
-print_r('DEBUG:SIDEBAR' . '<hr>');
+require_once ROOT . '/assets/view/sidebar.php';

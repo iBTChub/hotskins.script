@@ -1,0 +1,8 @@
+.modal-content {
+    border: none !important;
+    background-color: #f9f9fa !important;
+}
+
+.modal-footer {
+    border-top: 1px solid #eee !important;
+}

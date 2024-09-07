@@ -21,6 +21,4 @@ foreach ($requiredFiles as $file) {
    }
 }
 
-includeHeader();
-
-exit();
+require $_SERVER['DOCUMENT_ROOT'] . './assets/view/main.php';

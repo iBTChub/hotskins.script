@@ -1,0 +1,3 @@
+<?= includeSidebar(); ?>
+<?= includeHeader(); ?>
+<?= includeFooter(); ?>
